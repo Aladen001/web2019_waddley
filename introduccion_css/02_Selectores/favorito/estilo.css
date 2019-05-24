@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #BDC3C7;
+    font-family: Arial;
+}
+h1,h2,h3 {
+    color: crimson;
+}
+p{
+    color: blue
+}
+a {
+    color: black;
+}
+#biografia{
+    background: cornflowerblue;
+}
+#carrera{
+    background: coral;
+}
+#premios{
+    background: chocolate;
+}
+#vida personal{
+    background: chartreuse;
+}
+#galeria de imagenes{
+    background: cornsilk;
+}
+p{
+    color: lightblue;
+}
+p{
+    color: brown;
+    font-size: 20px;
+}
+/* Esto es un comentario. se usa para describir parte del codigo.
+Este codigo no se ejecuta por navegador */
+p{
+    color: gainsboro;
+}
+.text-black{
+    color: #000;
+}
+.propriedades_css_mostradas{
+    color: red;
+    bacground: blue;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px;
+}
+/* Estilo para el menu */
+nav{
+    background: #DDD;
+    padding: 10px;
+    border: solid 1px grey;
+
+}
+
+nav a {
+    color dodgerblue;
+    padding: 5px;
+    border: solid 1px dodgerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #FFF;
+}
