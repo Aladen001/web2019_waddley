@@ -1,0 +1,46 @@
+.pixel{
+    background: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.pixel1 {
+    background: red;
+    width: 200px;
+    height: 200px;
+}
+
+.pixel2 {
+    background: purple;
+    width: 200px;
+    height: 200px;
+}
+
+.pixel3 {
+    background: green;
+    width: 200px;
+    height: 200px;
+}
+
+.pixel4 {
+    background: grey;
+    width: 200px;
+    height: 200px;
+}
+.relativo_pixel {
+    font-size: 20px;
+}
+.porciento1 {
+    background: chocolate;
+    width: 50%;
+    
+}
+.porciento2 {
+    background: springgreen;
+    height: 75%;
+    
+}
+.porciento3 {
+    background: moccasin;
+    width: 100%;
+}
