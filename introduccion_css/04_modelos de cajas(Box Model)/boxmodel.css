@@ -1,0 +1,42 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Quitarle el subrayado*/
+a {
+    text-decoration: none;
+}
+/* Cambiar fuente*/
+body {
+    font-family: Arial;
+}
+/* Estilo para nav*/
+nav {
+    background-color: indigo;
+    width: 400px;
+    height: 80vh;
+}
+
+nav h1, a {
+    color: rgb(89, 255, 47);
+    font-size: 36px;
+
+}
+nav ul li  {
+    background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+
+    border: solid 1px #707070;
+}
+
+nav h1 {
+    margin-top: 30px;
+    margin-bottom: 20;
+    margin-left: 30px;
+    margin-right: 0;
+    font-weight: normal;
+}
