@@ -9,18 +9,18 @@ a {
 }
 /* Cambiar fuente*/
 body {
-    font-family: Arial;
+    font-family: Roman;
 }
 /* Estilo para nav*/
 nav {
-    background-color: indigo;
-    width: 400px;
-    height: 80vh;
+    background-color: blue;
+    width: 100vw;
+    height: 80px;
 }
 
 nav h1, a {
-    color: rgb(89, 255, 47);
-    font-size: 36px;
+    color: red;
+    font-size: 40px;
 
 }
 nav ul li  {
@@ -30,7 +30,8 @@ nav ul li  {
     margin-left: 0;
     margin-right: 0;
 
-    border: solid 1px #707070;
+    border: solid 1px #707070; display: line-block;
+    display: inline;
 }
 
 nav h1 {
@@ -40,3 +41,38 @@ nav h1 {
     margin-right: 0;
     font-weight: normal;
 }
+nav li.active {
+    background: rgba(0,0,0,0.5);
+}
+nav h1{
+    display: none;
+}
+img{
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+div {
+    display: inline;
+}
+ p span {
+     background: rgba(255, 255, 255, 0.5);
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: 0;
+     margin-right: 0;
+
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 0px;
+     padding-right: 30px;
+     
+ }
+
+ p {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 0px;
+      padding-right: 0px;
+ }
