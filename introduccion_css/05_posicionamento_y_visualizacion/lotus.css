@@ -1,0 +1,135 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial;
+}
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background: white;
+}
+section {
+    background: lightgray;
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+}
+
+section,div {
+
+    padding: 10px;
+}
+
+div a {
+    color: #aaa;
+    text-direction: none;
+    font-family: Arial;
+}
+nav a{
+    color: #ff3b01;
+}
+
+div span {
+    color: #21292D;
+    text-transform: uppercase;
+    font-family: Arial;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+section {
+  background: white;
+  display: flex;
+  height: 200px;
+  flex-direction: column-reverse;
+}
+div a {
+  color: #aaa;
+  text-direction: none;
+  font-family: Arial;
+}
+div span {
+  color: #21292D;
+  text-transform: uppercase;
+  font-family: Arial;
+}
+nav {
+  display:flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+a {
+  text-decoration: none;
+  color: #aaa;
+  margin-left: 30px;
+}
+section article.container {
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+section article div h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+section article div p {
+    font-size: 13px;
+    width: 75%;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+/* Clase de utilidad*/
+
+.btn {
+background: #ccc;
+text-decoration: none;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: #FFF;
+}
+.text-orange {
+    color: #ff3b01;
+}
+.text-darkgray {
+    color: #313243;
+}
+.text-lightgray{
+    color: #AAA;
+}
+.bg-orange {
+    background-color: #ff3b01;
+}
+.bg-darkgray {
+    background-color: #313243;
+}
+.bg-lightgray {
+    background-color: #AAA;
+}
+/* agregar fondo*/
+
+section#principal {
+    height: 100vh;
+    background-image: url("yoga.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: right;
+}
