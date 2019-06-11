@@ -1,0 +1,33 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.contener{
+    width: 80%;
+    height: 20px;
+    margin-bottom: 70px;
+}
+ 
+nav{
+    text-decoration: none;
+    display:red;
+    padding: 30px;
+    background-color: rgb(242, 255, 240);
+    text-align: center;
+    padding: 20px 30px;
+    
+}
+
+div{
+    display: inline;
+    padding: 50px;
+    color: black;
+}
+body{
+    font-size: 30px;
+    background-image: url("");
+    background-repeat: no-repeat;
+}
