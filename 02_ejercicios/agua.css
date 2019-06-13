@@ -4,49 +4,44 @@
     padding: 0;
 
 }
+.contener{
+    width: 90%;
+    margin: 40px;
+    padding: 30px;
+}
 
 nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
     text-decoration: none;
-    padding-bottom: 20px;
-    background-color:white;
-    text-align: center;
-    margin: 0,0.5%;
-    text-align: center;
-    display: inline;
-    height: 10px;
-    padding: 12px;
-    margin: 13px;
+    color: blue;
+    padding: 15px;
 }
 
 body{
-    font-size: 30px;
-    background-image: url("");
+    background-image: url("texture-agua.jpg");
     background-repeat: no-repeat;
+    background-size: 1500px;
 }
- 
-header div nav{
- width: 90px;
- height: 90px;
- margin-bottom: 80px;  
-          
+div img{
+    display: flex;
 }
-a{
-    margin-right: 110px;
+.facebook {
+    font-size: 30px;
+    color: orange;
 }
-nav{
-    
-    padding-right:25%;
+.instagram {
+    font-size: 30px;
+    color: orange;
 }
-div{
-   padding: 30px;
-   padding-left: -0%;
-   display: flex;
-   padding: 12px;
-   margin: 13px;
+.twiter {
+    font-size: 30px;
+    color: orange;
 }
-p{
-     padding: 12px;
-     margin: 13px;
-     text-decoration: beige;
-
+.youtube {
+    font-size: 30px;
+    color: red;
 }
+   
