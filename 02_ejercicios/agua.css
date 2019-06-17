@@ -20,28 +20,54 @@ nav a{
     padding: 15px;
 }
 
-body{
-    background-image: url("texture-agua.jpg");
-    background-repeat: no-repeat;
-    background-size: 1500px;
-}
+
 div img{
     display: flex;
 }
 .facebook {
     font-size: 30px;
-    color: orange;
+    color: blue;
 }
 .instagram {
     font-size: 30px;
-    color: orange;
+    color: rgb(255, 0, 34);
 }
 .twiter {
     font-size: 30px;
-    color: orange;
+    color: blue;
 }
 .youtube {
     font-size: 30px;
     color: red;
+}
+#lele{
+    background-image: url("background-water-.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 2090px;
+}
+#wadd{
+    background-image: url("baltana.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#beliz{
+    background-image: url("water-back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 2090px;
+
+}
+#yayu{
+    background-image: url("water-back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 2090px;
+}
+#pimp{
+    background-image: url("pimp.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 2090px;
 }
    
